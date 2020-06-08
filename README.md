@@ -9,12 +9,12 @@ Go To [Models](https://github.com/sarfarazansari/adoption/blob/master/models)
 ## Auth
 for all the auth [Model](https://github.com/sarfarazansari/adoption/blob/master/models/auth.interface.ts)
 
-Register 
-Login 
-Change Password  
-Forgot Password
-Logout
-Verify Email
+Register |
+Login |
+Change Password  |
+Forgot Password |
+Logout |
+Verify Email |
 
 ---------------
 
