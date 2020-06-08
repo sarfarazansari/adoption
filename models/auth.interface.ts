@@ -57,7 +57,7 @@ export interface ISigninResponse extends IRegisterUser {
   // jwt token
   token: string;
   // randomly generated unique id
-  uid: string;
+  uuid: string;
   // user created date
   createdAt: Date;
   // last updated
