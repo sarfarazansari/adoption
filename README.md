@@ -7,7 +7,7 @@ Go To [Models](https://github.com/sarfarazansari/adoption/blob/master/models)
 ---
 
 ## Auth
-for all the auth [Model](https://github.com/sarfarazansari/adoption/blob/master/models/auth.interface.ts)
+for all the auth [Models](https://github.com/sarfarazansari/adoption/blob/master/models/auth.interface.ts)
 
 ```
 Register
@@ -21,11 +21,11 @@ Verify Email
 ---------------
 
 ## Daily motivational stuff
-
-post
-get
-delete
-
+```
+GET
+POST
+DELETE
+```
 ------------
 
 ## Team Members

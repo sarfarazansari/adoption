@@ -24,6 +24,7 @@ export interface ICommonDetails {
 
 export interface IRegisterUser extends ICommonDetails {
   userType: UserTypes;
+  profileImagePath: URL;
   email: string; // only valid and unique email IDs
   password: string;
   address: string;
@@ -42,7 +43,19 @@ export interface ISigninRequest {
   password: string;
 }
 
+export interface IChangePasswordRequest {
+  email: string;
+  oldPassword: string;
+  newPassword: string;
+}
+
+export interface IForgotPasswordRequest {
+  email: string;
+}
+
 export interface ISigninResponse extends IRegisterUser {
+  // jwt token
+  token: string;
   // randomly generated unique id
   uid: string;
   // user created date
